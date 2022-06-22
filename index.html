@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>iPhone TODO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        ::-webkit-scrollbar {
+            width: 0px;
+        }
+    </style>
+</head>
+<body class="bg-[#5a616b] p-24">
+    <div class="flex items-center justify-center space-x-72">
+        <div class="bg-[#313541] h-[550px] px-4 py-6 w-80 rounded-2xl flex flex-col overflow-y-auto">
+            <div class="flex items-center justify-between">
+                <div class="flex flex-col">
+                    <span class="text-white font-semibold">Hi Rakib</span>
+                    <span class="text-red-500 text-xs">10 Task Pending</span>
+                </div>
+                <img class="h-8 w-8 rounded-full" src="assets/profile-4.jpeg" alt="">
+            </div>
+            <div class="flex mt-6 items-center justify-between relative">
+                <input type="text" class="px-11 py-2 h-12 rounded-3xl bg-[#424652] placeholder:text-[#5c606c] text-gray-100 focus:outline-none w-3/4" placeholder="Search">
+                <span class="material-icons text-[#5c606c] absolute left-3 top-[60%] transform -translate-y-[60%] select-none">search</span>
+                <button class="rounded-full h-12 w-12 bg-[#fd756b] shadow-lg shadow-[#fd756b] text-[#ffc0ae]">
+                    <span class="material-icons flex items-center justify-center">
+                        tune
+                    </span>
+                </button>
+            </div>
+            <span class="text-white font-semibold mt-8">Categories</span>
+            <div class="">
+                <div class="flex space-x-2">
+                    <div class="bg-[#424652] mt-4 rounded-2xl h-48 w-36 p-4 relative">
+                        <span class="text-white font-semibold mt-8">Mobile App</span>
+                        <div class="text-white text-xs mt-1 text-slate-100">10 Tasks</div>
+                        <div class="h-36 w-36 absolute -bottom-[21px] left-[8px]">
+                            <img src="assets/Coach-rafiki.png" class="" alt="">
+                        </div>
+                    </div>
+                    <div class="bg-[#424652] mt-4 rounded-2xl h-48 w-36 p-4 relative">
+                        <span class="text-white font-semibold mt-8">Website</span>
+                        <div class="text-white text-xs mt-1 text-slate-100">05 Tasks</div>
+                        <div class="h-36 w-36 absolute -bottom-[21px] left-[8px]">
+                            <img src="assets/Healthy lifestyle-rafiki.png" class="" alt="">
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-between">
+                <span class="text-white font-semibold mt-4">Ongoing Task</span>
+                <span class="text-red-500 mt-4 text-xs cursor-pointer">See all</span>
+            </div>
+            <div class="bg-[#424652] mt-4 rounded-2xl h-48 w-full p-4 relative">
+                <div class="">
+                    <div class="flex flex-col relative">
+                        <div class="text-white text-sm font-semibold">Wallet App Design</div>
+                        <span class="text-white text-xs text-slate-100 mt-2">Team Members</span>
+                        <div class="flex items-center space-x-1 mt-2">
+                            <img src="assets/profile-1.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-2.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-3.jpeg" class="rounded-full h-6 w-6" alt="">
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="mt-2 ml-2 text-xs text-slate-400">2:30 PM - 6:00 PM</span>
+                        </div>
+                        <div class="absolute -right-1 top-0">
+                            <div class="bg-[#b9dbff] h-6 w-10 text-xs text-slate-100 flex items-center justify-center rounded-xl">46</div>
+                        </div>
+                        <div class="bg-[#9da99f] h-16 w-16 rounded-full absolute right-2 top-10 flex items-center justify-center">
+                            <div class="bg-[#424652] h-14 w-14 rounded-full flex items-center justify-center text-slate-100 text-sm">100%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#424652] mt-4 rounded-2xl h-48 w-full p-4 relative">
+                <div class="">
+                    <div class="flex flex-col relative">
+                        <div class="text-white text-sm font-semibold">Wallet App Design</div>
+                        <span class="text-white text-xs text-slate-100 mt-2">Team Members</span>
+                        <div class="flex items-center space-x-1 mt-2">
+                            <img src="assets/profile-1.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-2.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-3.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-4.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-5.jpeg" class="rounded-full h-6 w-6" alt="">
+                            <img src="assets/profile-6.jpeg" class="rounded-full h-6 w-6" alt="">
+                        </div>
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-2 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="mt-2 ml-2 text-xs text-slate-400">2:30 PM - 6:00 PM</span>
+                        </div>
+                        <div class="absolute -right-1 top-0">
+                            <div class="bg-[#fa3232] h-6 w-10 text-xs text-slate-100 flex items-center justify-center rounded-xl">64</div>
+                        </div>
+                        <div class="bg-[#9da99f] h-16 w-16 rounded-full absolute right-2 top-10 flex items-center justify-center">
+                            <div class="bg-[#424652] h-14 w-14 rounded-full flex items-center justify-center text-slate-100 text-sm">100%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#313541] h-[550px] px-4 py-6 w-80 rounded-2xl overflow-y-auto">
+            <div class="flex items-center justify-between">
+                <span class="material-icons text-white select-none cursor-pointer">navigate_before</span>
+                <span class="text-white">Todays Task</span>
+                <img class="h-8 w-8 rounded-full" src="assets/profile-4.jpeg" alt="">
+            </div>
+            <div class="flex items-center justify-between mt-4">
+                <div class="flex flex-col">
+                    <span class="text-white font-semibold">August 19</span>
+                    <span class="text-slate-400 text-xs">10 tasks today</span>
+                </div>
+                <div class="bg-[#b3d195] h-10 w-10 rounded-full cursor-pointer text-white flex items-center justify-center text-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+            <div class="">
+                <div class="flex items-center space-x-6 justify-center cursor-pointer select-none">
+                    <span class="text-slate-400 text-sm flex items-center flex-col">16 <span class="text-slate-400 text-xs mt-2">Mon</span></span>
+                    <span class="text-slate-400 text-sm flex items-center flex-col">17 <span class="text-slate-400 text-xs mt-2">Tue</span></span>
+                    <span class="text-slate-400 text-sm flex items-center flex-col">18 <span class="text-slate-400 text-xs mt-2">Wed</span></span>
+                    <div class="bg-[#ff7161] text-slate-100 py-2 px-2 rounded-full flex items-center flex-col shadow-lg shadow-[#fd756b] mt-8">
+                        <span class="text-sm flex items-center flex-col">
+                            19 <span class="text-xs mt-2">Thu</span>
+                        </span>
+                        <span class="font-bold text-lg">&bullet;</span>
+                    </div>
+                    <span class="text-slate-400 text-sm flex items-center flex-col">20 <span class="text-slate-400 text-xs mt-2">Fri</span></span>
+                    <span class="text-slate-400 text-sm flex items-center flex-col">21 <span class="text-slate-400 text-xs mt-2">Sat</span></span>
+                    <span class="text-slate-400 text-sm flex items-center flex-col">22 <span class="text-slate-400 text-xs mt-2">Sun</span></span>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="bg-[#e4c090] h-2 w-2 rounded-full absolute right-56 top-[20px]"></div>
+                <div class="bg-[#e4c090] h-[1px] w-60 absolute -right-4 top-6"></div>
+            </div>
+            <div class="flex items-center flex-col -ml-60 mt-14 space-y-8 relative">
+                <span class="text-slate-400 text-xs">09:30 AM</span>
+                <div class="bg-[#67B4FF] p-2 h-8 w-36 rounded-full absolute right-20 -top-10 flex items-center">
+                    <img class="h-6 w-6 rounded-full" src="assets/profile-1.jpeg" alt="">
+                    <span class="text-white text-xs ml-2">Wireframe</span>
+                </div>
+                <span class="text-slate-400 text-xs">10:00 AM</span>
+                <span class="text-slate-400 text-xs">10:30 AM</span>
+                <div class="bg-[#B3D297] p-2 h-8 w-max rounded-full absolute right-[68px] top-14 flex items-center">
+                    <img class="h-6 w-6 rounded-full" src="assets/profile-2.jpeg" alt="">
+                    <img class="h-7 w-7 rounded-full -ml-2 border-2 border-[#B3D297]" src="assets/profile-5.jpeg" alt="">
+                    <span class="text-white text-xs ml-2">Design Research</span>
+                </div>
+                <span class="text-slate-400 text-xs">11:00 AM</span>
+                <span class="text-slate-400 text-xs">11:30 AM</span>
+                <div class="bg-[#FE7660] p-2 h-8 w-52 rounded-l-full absolute -right-4 top-[152px] flex items-center">
+                    <img class="h-6 w-6 rounded-full" src="assets/profile-6.jpeg" alt="">
+                    <span class="text-white text-xs ml-2">Wallet App Design</span>
+                </div>
+                <span class="text-slate-400 text-xs">12:00 PM</span>
+                <span class="text-slate-400 text-xs">12:30 PM</span>
+                <div class="bg-[#FDAB4D] p-2 h-8 w-48 rounded-l-full absolute -right-4 top-[248px] flex items-center">
+                    <img class="h-6 w-6 rounded-full" src="assets/profile-4.jpeg" alt="">
+                    <img class="h-7 w-7 rounded-full -ml-2 border-2 border-[#FDAB4D]" src="assets/profile-3.jpeg" alt="">
+                    <img class="h-7 w-7 rounded-full -ml-2 border-2 border-[#FDAB4D]" src="assets/profile-5.jpeg" alt="">
+                    <span class="text-white text-xs ml-4">Website Design</span>
+                </div>
+                <span class="text-slate-400 text-xs">01:00 PM</span>
+                <span class="text-slate-400 text-xs">01:30 PM</span>
+                <div class="bg-[#B09DFC] p-2 h-8 w-40 rounded-full absolute right-14 top-[344px] flex items-center">
+                    <img class="h-6 w-6 rounded-full" src="assets/profile-1.jpeg" alt="">
+                    <span class="text-white text-xs ml-2">Wallet App Design</span>
+                </div>
+                <span class="text-slate-400 text-xs">02:00 PM</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
